@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "boot/boot_sequence.cpp"
+    INCLUDE_DIRS
+        "."
+        "boot"
+    REQUIRES
+        freertos
+        driver
+)
